@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.body {
+  display: block;
+  background-color: black;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.body-div {
+  background-color: #282c34;
+  position:relative ;
+  height: 200%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.intro-text {
+  text-align: center;
+  color: white;
+}
+
+.about-text {
+  color: white;
+  padding: 2em;
+  size: 2em;
+
+}
+
+.regular-text {
+  color: white;
+  text-align: center;
+  size: 2em;
+}
+
+.equation {
+  color: white;
+  text-align: center;
+  font-size:x-large;
+  font-weight: bolder ;
+}
+
+.slider {
+  width: 70%;
+  position:absolute ;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.range {
+  color: white;
+  text-align: center;
+  padding: 2em;
+  size: 2em;
+}
